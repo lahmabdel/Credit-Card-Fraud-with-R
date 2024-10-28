@@ -1,7 +1,6 @@
 ---
 title: "Credit Card Fraud"
-author: "Lahmamssi Abdelhak, Kaddouri Wissal"
-date: "2024-05-29"
+author: "Lahmamssi Abdelhak"
 output:
   pdf_document:
     toc: true
