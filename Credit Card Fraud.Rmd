@@ -35,7 +35,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Credit card fraud poses a significant risk to both financial institutions and their customers, leading to not only financial losses but also damaging the trust and reputation of banks. With the rise in online transactions, the urgency for effective real-time fraud detection systems has increased markedly.Given these challenges, machine learning (ML) offers a promising avenue for enhancing fraud detection by leveraging its ability to discern patterns and anomalies in large datasets.
 
-Using the provided dataset, we will analyze the challenges associated with credit card fraud detection and evaluate the effectiveness of machine learning techniques in addressing these issues. 
+Using the dataset available in "https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud", we will analyze the challenges associated with credit card fraud detection and evaluate the effectiveness of machine learning techniques in addressing these issues. 
 
 This report aims to analyze the given dataset, and to demonstrate how well machine learning can identify fraudulent transactions and contribute to the development of a robust fraud detection system.
 
