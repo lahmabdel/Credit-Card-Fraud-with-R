@@ -44,7 +44,7 @@
   <h2>Reproduction du Projet</h2>
   <ol>
     <li>Cloner le dépôt GitHub :
-      <pre><code>git clone https://github.com/username/credit-card-fraud-detection.git</code></pre>
+      <pre><code>git clone https://github.com/lahmabdel/Credit-Card-Fraud-with-R.git</code></pre>
     </li>
     <li>Ouvrir <code>Credit-Card-Fraud.Rmd</code> dans RStudio et exécuter chaque cellule pour reproduire l’analyse.</li>
     <li>Pour générer le fichier PDF, compiler le fichier <code>.Rmd</code> dans RStudio avec l’option "Knit to PDF".</li>
