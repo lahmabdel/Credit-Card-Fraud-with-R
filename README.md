@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Détection de Fraude par Carte de Crédit</title>
-</head>
+
 <body>
 
   <h1>Détection de Fraude par Carte de Crédit</h1>
@@ -64,9 +60,6 @@
     <li><code>caret</code></li>
     <li><code>ROCR</code></li>
   </ul>
-
-  <h2>Licence</h2>
-  <p>Ce projet est sous licence MIT. Voir le fichier <code><a href="LICENSE">LICENSE</a></code> pour plus de détails.</p>
 
 </body>
 </html>
