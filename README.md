@@ -1,56 +1,56 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <body>
 
-  <h1>Détection de Fraude par Carte de Crédit</h1>
+  <h1>Credit Card Fraud Detection</h1>
 
   <h2>Description</h2>
-  <p>Ce projet vise à détecter les fraudes par carte de crédit en utilisant des techniques de Machine Learning. Il exploite un ensemble de données contenant des transactions bancaires pour entraîner et évaluer des modèles de classification binaire permettant de distinguer les transactions légitimes des transactions frauduleuses. Les techniques testées incluent la régression logistique et le classifieur Naive Bayes.</p>
-  <p>Les données utilisées sont issues de <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud">Kaggle</a> et contiennent des variables PCA ainsi que les caractéristiques <code>Time</code>, <code>Amount</code>, et <code>Class</code>.</p>
+  <p>This project aims to detect credit card fraud using machine learning techniques. It utilizes a dataset containing bank transactions to train and evaluate binary classification models that can distinguish between legitimate and fraudulent transactions. Techniques tested include logistic regression and the Naive Bayes classifier.</p>
+  <p>The dataset used is sourced from <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud">Kaggle</a> and contains PCA variables as well as the features <code>Time</code>, <code>Amount</code>, and <code>Class</code>.</p>
 
-  <h2>Structure du Projet</h2>
+  <h2>Project Structure</h2>
   <ul>
-    <li><code>Credit-Card-Fraud.Rmd</code> : le fichier R Markdown contenant le code complet pour la préparation, l’analyse, et la modélisation des données.</li>
-    <li><code>Credit-Card-Fraud.pdf</code> : une version PDF du rapport généré par le fichier <code>.Rmd</code>, présentant les résultats détaillés de l'analyse et de la modélisation.</li>
+    <li><code>Credit-Card-Fraud.Rmd</code>: The R Markdown file containing the complete code for data preparation, analysis, and modeling.</li>
+    <li><code>Credit-Card-Fraud.pdf</code>: A PDF version of the report generated from the <code>.Rmd</code> file, presenting detailed analysis and modeling results.</li>
   </ul>
 
-  <h2>Contenu du Rapport</h2>
-  <p>Le rapport présente les sections suivantes :</p>
+  <h2>Report Content</h2>
+  <p>The report includes the following sections:</p>
   <ol>
-    <li><strong>Introduction</strong> : Contexte et présentation des enjeux de la fraude par carte de crédit.</li>
-    <li><strong>Importation des bibliothèques et du jeu de données</strong> : Chargement des bibliothèques R nécessaires et du jeu de données.</li>
-    <li><strong>Exploration et Analyse des Données</strong> :
+    <li><strong>Introduction</strong>: Context and overview of credit card fraud challenges.</li>
+    <li><strong>Importing Libraries and Dataset</strong>: Loading necessary R libraries and the dataset.</li>
+    <li><strong>Data Exploration and Analysis</strong>:
       <ul>
-        <li>Exploration des données.</li>
-        <li>Analyse des variables <code>Time</code>, <code>Amount</code> et <code>Class</code>.</li>
+        <li>Data exploration.</li>
+        <li>Analysis of the <code>Time</code>, <code>Amount</code>, and <code>Class</code> variables.</li>
       </ul>
     </li>
-    <li><strong>Manipulation des Données</strong> :
+    <li><strong>Data Manipulation</strong>:
       <ul>
-        <li>Séparation des données en ensembles d'entraînement et de test.</li>
-        <li>Rééchantillonnage pour gérer le déséquilibre de classes.</li>
+        <li>Splitting the data into training and test sets.</li>
+        <li>Resampling to address class imbalance.</li>
       </ul>
     </li>
-    <li><strong>Modélisation des Données</strong> :
+    <li><strong>Data Modeling</strong>:
       <ul>
-        <li>Implémentation des modèles de régression logistique et de Naive Bayes.</li>
-        <li>Validation et comparaison des modèles avec les métriques d'exactitude, précision, rappel, F1-Score, et AUC.</li>
+        <li>Implementation of logistic regression and Naive Bayes models.</li>
+        <li>Validation and comparison of models using metrics such as accuracy, precision, recall, F1-Score, and AUC.</li>
       </ul>
     </li>
-    <li><strong>Conclusion</strong> : Synthèse des résultats et perspectives d’amélioration.</li>
+    <li><strong>Conclusion</strong>: Summary of results and improvement perspectives.</li>
   </ol>
 
-  <h2>Reproduction du Projet</h2>
+  <h2>Project Reproduction</h2>
   <ol>
-    <li>Cloner le dépôt GitHub :
+    <li>Clone the GitHub repository:
       <pre><code>git clone https://github.com/lahmabdel/Credit-Card-Fraud-with-R.git</code></pre>
     </li>
-    <li>Ouvrir <code>Credit-Card-Fraud.Rmd</code> dans RStudio et exécuter chaque cellule pour reproduire l’analyse.</li>
-    <li>Pour générer le fichier PDF, compiler le fichier <code>.Rmd</code> dans RStudio avec l’option "Knit to PDF".</li>
+    <li>Open <code>Credit-Card-Fraud.Rmd</code> in RStudio and execute each cell to reproduce the analysis.</li>
+    <li>To generate the PDF file, compile the <code>.Rmd</code> file in RStudio using the "Knit to PDF" option.</li>
   </ol>
 
-  <h2>Bibliothèques Utilisées</h2>
+  <h2>Libraries Used</h2>
   <ul>
     <li><code>tidyverse</code></li>
     <li><code>dplyr</code></li>
@@ -63,3 +63,4 @@
 
 </body>
 </html>
+
